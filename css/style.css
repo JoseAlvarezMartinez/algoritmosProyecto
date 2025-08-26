@@ -35,6 +35,7 @@ ul {
 .preguntas-header {
   background-image: url(../img/wallpaperContacto.webp);
   position: relative;
+  background-position: center;
 }
 .servicios-header {
   background-image: url(../img/wallpaperServicios.jpg);
@@ -148,7 +149,9 @@ main {
   border-radius: 0.5rem;
   padding: 1rem;
 }
-
+.texto-preguntas{
+  font-size: 0.9rem;
+}
 .servicios-contenedor {
   max-width: 25rem;
   padding: 1rem;
