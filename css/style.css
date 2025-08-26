@@ -58,7 +58,9 @@ ul {
   padding: 0.5rem 2rem;
   border: none;
 }
-
+.servicios-header-contenedor-inferior {
+  padding: 0 3rem;
+}
 /* Rentabilidad */
 .seccion-rentabilidad {
   background-color: #000;
@@ -84,11 +86,8 @@ main {
   font-size: 2rem;
 }
 .card-algoritmos {
-
   max-width: 25rem;
   height: 25rem;
-
-
 }
 .card-algoritmos-titulo {
   font-size: 1.5rem;
@@ -151,7 +150,6 @@ main {
 }
 
 .servicios-contenedor {
-  background-color: rgba(87, 7, 130, 0.874);
   max-width: 25rem;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -180,7 +178,6 @@ main {
   width: 5rem;
   height: 5rem;
 }
-
 
 /* Empresas Compatibles */
 .empresasLogo {
@@ -266,5 +263,9 @@ footer {
   .servicios-contenedor-inferior {
     margin: unset;
     margin-left: 5rem;
+  }
+  .servicios-header-contenedor-inferior {
+    width: 50%;
+    margin: 0 auto;
   }
 }
